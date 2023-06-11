@@ -66,7 +66,6 @@ export const newUser = async (req, res, next) => {
  * @param {Function} next
  */
 export const updateUser = async (req, res, next) => {
-  console.log("req.body=======",req.body);
   try {
     const data = await UserService.updateUser(req.body);
     res.status(HttpStatus.ACCEPTED).json({
