@@ -1,0 +1,75 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-09T12:17:46.645Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-09T12:18:21.582Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-09T12:18:38.691Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-09T12:19:29.873Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-09T12:19:56.269Z"}
+error: 
+    status - 500 
+    message - FirebaseError: Function addDoc() called with invalid data. Data must be an object, but it was: undefined (found in document Users/CtkoEBhzucHLxKaHp038)
+    at new FirestoreError (D:\FirebaseDemoProject\node_modules\@firebase\firestore\src\util\error.ts:229:5)
+    at createError (D:\FirebaseDemoProject\node_modules\@firebase\firestore\src\lite\user_data_reader.ts:1038:10)
+    at ParseContextImpl.createError (D:\FirebaseDemoProject\node_modules\@firebase\firestore\src\lite\user_data_reader.ts:278:12)
+    at validatePlainObject (D:\FirebaseDemoProject\node_modules\@firebase\firestore\src\lite\user_data_reader.ts:932:21)
+    at parseSetData (D:\FirebaseDemoProject\node_modules\@firebase\firestore\src\lite\user_data_reader.ts:383:3)
+    at addDoc (D:\FirebaseDemoProject\node_modules\@firebase\firestore\src\exp\reference_impl.ts:406:18)
+    at CollectionReference.add (D:\FirebaseDemoProject\node_modules\@firebase\firestore\src\api\database.ts:1299:12)
+    at _callee2$ (D:\FirebaseDemoProject\src\services\/user.service.js:12:21)
+    at tryCatch (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newUser (D:\FirebaseDemoProject\src\services\/user.service.js:10:21)
+    at _callee3$ (D:\FirebaseDemoProject\src\controllers\/user.controller.js:93:36)
+    at tryCatch (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at newUser (D:\FirebaseDemoProject\src\controllers\/user.controller.js:91:21)
+    at Layer.handle [as handle_request] (D:\FirebaseDemoProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FirebaseDemoProject\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FirebaseDemoProject\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FirebaseDemoProject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FirebaseDemoProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FirebaseDemoProject\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FirebaseDemoProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FirebaseDemoProject\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FirebaseDemoProject\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FirebaseDemoProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FirebaseDemoProject\node_modules\express\lib\router\index.js:328:13)
+    at D:\FirebaseDemoProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FirebaseDemoProject\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FirebaseDemoProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FirebaseDemoProject\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FirebaseDemoProject\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FirebaseDemoProject\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FirebaseDemoProject\node_modules\express\lib\router\index.js:328:13)
+    at D:\FirebaseDemoProject\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FirebaseDemoProject\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FirebaseDemoProject\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FirebaseDemoProject\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FirebaseDemoProject\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-09T12:20:04.146Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-09T12:20:48.688Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-09T12:21:06.674Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-09T12:21:22.913Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-09T12:21:27.994Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-09T12:22:06.499Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-09T12:22:10.045Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-09T12:23:21.501Z"}

@@ -1,0 +1,120 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:34:18.745Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:40:08.080Z"}
+error: 
+    status - 500 
+    message - ReferenceError: res is not defined
+    at _callee3$ (D:\FirebaseDemoProject\src\services\/user.service.js:29:5)
+    at tryCatch (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/update 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-06-10T05:40:28.664Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:40:56.253Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:41:00.735Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:41:10.990Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:41:17.146Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:41:23.550Z"}
+error: 
+    status - 500 
+    message - ReferenceError: res is not defined
+    at _callee3$ (D:\FirebaseDemoProject\src\services\/user.service.js:31:5)
+    at tryCatch (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/update 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-06-10T05:41:33.267Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:42:54.339Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:43:05.393Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:43:17.382Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:43:24.493Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:43:28.976Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:45:42.294Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:55:45.763Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:55:51.178Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:55:59.948Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:56:20.455Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:56:26.296Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:56:30.270Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:56:36.106Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:56:42.644Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:56:50.427Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:57:51.925Z"}
+error: 
+    status - 500 
+    message - TypeError: _database.default.collection is not a function
+    at _callee2$ (D:\FirebaseDemoProject\src\services\/user.service.js:19:15)
+    at tryCatch (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-10T05:58:01.314Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:58:20.862Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:59:40.943Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:59:43.332Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T05:59:46.984Z"}
+error: 
+    status - 500 
+    message - FirebaseError: Function DocumentReference.set() called with invalid data. Data must be an object, but it was: a custom DocumentReference object (found in document Users/tanu123@gmail.com)
+    at new FirestoreError (D:\FirebaseDemoProject\node_modules\@firebase\firestore\src\util\error.ts:229:5)
+    at createError (D:\FirebaseDemoProject\node_modules\@firebase\firestore\src\lite\user_data_reader.ts:1038:10)
+    at ParseContextImpl.createError (D:\FirebaseDemoProject\node_modules\@firebase\firestore\src\lite\user_data_reader.ts:278:12)
+    at validatePlainObject (D:\FirebaseDemoProject\node_modules\@firebase\firestore\src\lite\user_data_reader.ts:932:21)
+    at parseSetData (D:\FirebaseDemoProject\node_modules\@firebase\firestore\src\lite\user_data_reader.ts:383:3)
+    at setDoc (D:\FirebaseDemoProject\node_modules\@firebase\firestore\src\exp\reference_impl.ts:280:18)
+    at DocumentReference.set (D:\FirebaseDemoProject\node_modules\@firebase\firestore\src\api\database.ts:738:16)
+    at _callee2$ (D:\FirebaseDemoProject\src\services\/user.service.js:19:31)
+    at tryCatch (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-10T05:59:51.760Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T06:07:28.504Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T06:07:56.089Z"}
+error: 
+    status - 500 
+    message - FirebaseError: Function DocumentReference.set() called with invalid data. Data must be an object, but it was: "tanu123@gmail.com" (found in document Users/4niGtqDojgU5uxfm73G8)
+    at new FirestoreError (D:\FirebaseDemoProject\node_modules\@firebase\firestore\src\util\error.ts:229:5)
+    at createError (D:\FirebaseDemoProject\node_modules\@firebase\firestore\src\lite\user_data_reader.ts:1038:10)
+    at ParseContextImpl.createError (D:\FirebaseDemoProject\node_modules\@firebase\firestore\src\lite\user_data_reader.ts:278:12)
+    at validatePlainObject (D:\FirebaseDemoProject\node_modules\@firebase\firestore\src\lite\user_data_reader.ts:932:21)
+    at parseSetData (D:\FirebaseDemoProject\node_modules\@firebase\firestore\src\lite\user_data_reader.ts:383:3)
+    at setDoc (D:\FirebaseDemoProject\node_modules\@firebase\firestore\src\exp\reference_impl.ts:280:18)
+    at DocumentReference.set (D:\FirebaseDemoProject\node_modules\@firebase\firestore\src\api\database.ts:738:16)
+    at _callee2$ (D:\FirebaseDemoProject\src\services\/user.service.js:19:27)
+    at tryCatch (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FirebaseDemoProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-10T06:08:07.773Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T06:09:34.866Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T06:09:37.690Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T06:13:21.994Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T06:13:29.842Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T06:13:32.472Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T06:13:42.245Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-10T06:15:06.235Z"}
